@@ -10,6 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "now-build": "react-scripts build",
+    "deploy": "now",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -27,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "now": "^15.5.0"
   }
 }
